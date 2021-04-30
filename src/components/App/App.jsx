@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Header from '../../containers/Header/Header';
 
 const App = () => {
     return (
-        <main className="main">
-        </main>
+        <Fragment>
+            <Header />
+            <main className="main">
+            </main>
+        </Fragment>
     );
 };
 

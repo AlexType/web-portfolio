@@ -1,3 +1,13 @@
 @import "utils/fonts";
 @import "utils/bootstrap";
 @import "utils/settings";
+
+body {
+    background-color: #3d3838;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1;
+}
