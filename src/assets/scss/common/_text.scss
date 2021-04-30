@@ -1,0 +1,10 @@
+.title {
+    font-weight: 700;
+    &_name {
+        font-size: 4em;
+    }
+}
+
+.text-red {
+    color: $_red;
+}
