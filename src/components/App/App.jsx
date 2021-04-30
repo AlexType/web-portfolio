@@ -1,15 +1,16 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Header from '../../containers/Header/Header';
-import Home from '../../pages/Home/Home';
+import AppRouter from '../AppRouter/AppRouter';
 
 const App = () => {
     return (
-        <Fragment>
+        <BrowserRouter>
             <Header />
             <main className="main">
-                <Home />
+                <AppRouter />
             </main>
-        </Fragment>
+        </BrowserRouter>
     );
 };
 

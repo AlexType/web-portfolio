@@ -13,3 +13,10 @@ body {
     font-size: 2.2em;
     line-height: 1;
 }
+
+.nav-link {
+    color: $_mainColor;
+    &:hover {
+        color: $_mainColor;
+    }
+}

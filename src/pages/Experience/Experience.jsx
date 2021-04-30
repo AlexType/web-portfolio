@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 
-const Experiance = () => {
+const Experience = () => {
     return (
         <Fragment>
             <div className="container">
-                <p>Experiance</p>
+                <p>Experience</p>
             </div>
         </Fragment>
     );
 };
 
-export default Experiance;
+export default Experience;

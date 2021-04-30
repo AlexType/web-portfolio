@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { HOME_ROUTE } from '../../utils/consts';
 import ButtonIco from '../../UI/Buttons/ButtonIco/ButtonIco';
 import Nav from './components/Nav/Nav';
 import './Header.scss';
@@ -10,7 +12,7 @@ const Header = () => {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-auto">
                         <div className="logo">
-                            <span>[A|B]</span>
+                            <NavLink className='nav-link' to={HOME_ROUTE}><span>[A|B]</span></NavLink>
                         </div>
                     </div>
                     <div className="col-auto">
