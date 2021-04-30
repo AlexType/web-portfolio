@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    background: #fdfdfd;
+    background: #686868;
     padding: 10px;
     &__info {
         position: absolute;
@@ -23,10 +23,11 @@
     &__item {
         min-height: 9px;
         flex-basis: 1.923076923076923%;
-        background: #cecece;
-        border: 1px solid #fdfdfd;
+        background: #c0c0c0;
+        border: 1px solid #686868;
+        border-radius: 100px;
         &.lived {
-            background: #e24853;
+            background: #fa5353;
         }
     }
 }
