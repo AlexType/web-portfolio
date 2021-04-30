@@ -1,0 +1,32 @@
+.time-line {
+    max-width: 440px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fdfdfd;
+    padding: 10px;
+    &__info {
+        position: absolute;
+        right: calc(100% + 10px);
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        margin: 0;
+        padding: 10px 0;
+        font-size: 11px;
+        list-style: none;
+        line-height: 1;
+        text-align: right;
+    }
+    &__item {
+        min-height: 9px;
+        flex-basis: 1.923076923076923%;
+        background: #cecece;
+        border: 1px solid #fdfdfd;
+        &.lived {
+            background: #e24853;
+        }
+    }
+}
