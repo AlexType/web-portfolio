@@ -5,7 +5,7 @@ import './ButtonIco.scss';
 const ButtonIco = ({ icoType }) => {
     return (
         <button className="btn btn_ico">
-            <i class={`bi bi-${icoType}`}></i>
+            <i className={`bi bi-${icoType}`}></i>
         </button>
     );
 };
