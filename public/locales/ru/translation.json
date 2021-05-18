@@ -1,0 +1,9 @@
+{
+    "menu": {
+        "skills": "Навыки",
+        "experience": "Опыт",
+        "portfolio": "Работы",
+        "education": "Образование",
+        "contacts": "Контакты"
+    }
+}

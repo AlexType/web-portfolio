@@ -7,6 +7,7 @@ This project is created to provide information about my work and about me
 - React Router
 - React Hooks
 - MobX
+- i18next for nternationalization [RU/EN]
 - Bootstrap v5
 - SCSS
 
