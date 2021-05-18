@@ -1,9 +1,23 @@
 {
+    "aboutDeveloper": {
+        "name": "Alexand",
+        "surname": "Bryzgalov",
+        "fullName": "Alexand Bryzgalov",
+        "job": "Front-End Developer"
+    },
     "menu": {
         "skills": "Skills",
         "experience": "Experience",
         "portfolio": "Portfolio",
         "education": "Education",
         "contacts": "Contacts"
+    },
+    "skillsPage": {
+        "intro": "I am inspired by creating great work with people who are as passionate as I am about building something awesome."
+    },
+    "words": {
+        "treeLife": "Tree of Life",
+        "design": "Design",
+        "development": "Development"
     }
 }

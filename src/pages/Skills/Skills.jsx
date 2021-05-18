@@ -1,26 +1,24 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+    const { t } = useTranslation();
     return (
         <article className='skills'>
             <div className="container py-5">
                 <h2 className="title title_lg">
                     <span className="text-red">&lt;</span>
-                    Skills
+                    {t("menu.skills")}
                     <span className="text-red"> /&gt;</span>
                 </h2>
                 <div className="row gx-5 mt-4">
                     <div className="col-4">
-                        <p>
-                            I am inspired by creating great work with
-                            people who are as passionate as I am about
-                            building something awesome.
-                        </p>
+                        <p>{t("skillsPage.intro")}</p>
                     </div>
                     <div className="col">
                         <h3 className="title">
-                            <span className="text-red">[...</span>
-                            Front-End Development
+                            <span className="text-red">[... </span>
+                            Front-End {t("words.development")}
                             <span className="text-red">]</span>
                         </h3>
                         <ul className="skills-list mt-2">
@@ -35,8 +33,8 @@ const Skills = () => {
                             <li>Node.js,&ensp;</li>
                         </ul>
                         <h3 className="title mt-4">
-                            <span className="text-red">[...</span>
-                                UI\UX Design
+                            <span className="text-red">[... </span>
+                                UI\UX {t("words.design")}
                             <span className="text-red">]</span>
                         </h3>
                         <ul className="skills-list mt-2">
