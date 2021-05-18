@@ -6,6 +6,7 @@
         "job": "Front-End Developer"
     },
     "menu": {
+        "home": "Home",
         "skills": "Skills",
         "experience": "Experience",
         "portfolio": "Portfolio",

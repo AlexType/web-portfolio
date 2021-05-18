@@ -5,6 +5,7 @@ import {
     CONTACTS_ROUTE,
     EDUCATION_ROUTE,
     EXPERIENCE_ROUTE,
+    HOME_ROUTE,
     PORTFOLIO_ROUTE,
     SKILLS_ROUTE
 } from '../../../../utils/consts';
@@ -15,6 +16,9 @@ const Nav = () => {
     return (
         <nav className='nav'>
             <ul>
+                <li>
+                    <NavLink className='nav-link' to={HOME_ROUTE}>{t("menu.home")}</NavLink>
+                </li>
                 <li>
                     <NavLink className='nav-link' to={SKILLS_ROUTE}>{t("menu.skills")}</NavLink>
                 </li>
