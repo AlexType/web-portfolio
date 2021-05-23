@@ -8,6 +8,7 @@ This project is created to provide information about my work and about me
 - React Hooks
 - MobX
 - i18next for nternationalization [RU/EN]
+- Swiper
 - Bootstrap v5
 - SCSS
 
